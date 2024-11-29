@@ -3,7 +3,7 @@
     src: url("fonts/Norse-Bold.otf") format("opentype");
 }
 
-#splash {
+#left {
     display: flex;
 }
 
@@ -50,7 +50,7 @@ body {
     background-color: #f9fafb;
 }
 
-#signup {
+#right {
     font-family: sans-serif;
 
     margin-top:100px;
@@ -63,12 +63,9 @@ body {
     
 }
 
-#form {
-    background-color: white;
-    box-shadow: 0px 4px 2px 1px grey;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
+
+
 
 
 #form h3 {
@@ -76,11 +73,8 @@ body {
 }
 
 #signupForm {
-    margin-left: var(--margin-from-image);
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
-    flex-grow: none;
 
 }
 
@@ -96,17 +90,13 @@ body {
     border-color: red;
 }
 
-.signupPair {
-    display: flex;
-    flex-direction: column;
-}
 
-.signupBoxes {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
-    
-}
+
+
+
+
+
+
 #bottom-text {
     margin-top: 20px;
     margin-left: var(--margin-from-image);

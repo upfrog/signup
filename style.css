@@ -55,6 +55,7 @@ body {
 
     margin-top:100px;
     --margin-from-image: 30px;
+
 }
 
 
@@ -65,37 +66,57 @@ body {
 
 
 
+#login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-
-
-#form h3 {
-    margin-left: var(--margin-from-image);
+    padding-bottom: 20px;
 }
 
 #signupForm {
+    margin-left: var(--margin-from-image);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 35px;
+}
+
+#signupForm label {
+    display: block;
+    margin-bottom: 10px;
 
 }
 
+#signupForm p {
+    margin: 0px;
+    margin-bottom: 10px;
+
+}
+
+
+
+#login-title {
+    margin-left: var(--margin-from-image);
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 540;
+}
+
+
+
 #signupForm input {
     width: 250px;
+    height: 25px;
     background-color: #fffefe;
     border-color: #E5E7EB;
-    border-radius: 3px;;
+    border-radius: 8px;;
 
 }
 
 #signupForm input #password, #signupForm input #confirmPassword :invalid {
     border-color: red;
 }
-
-
-
-
-
-
-
 
 #bottom-text {
     margin-top: 20px;

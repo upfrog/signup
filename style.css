@@ -92,8 +92,6 @@ body {
 
 }
 
-
-
 #login-title {
     margin-left: var(--margin-from-image);
     font-size: 30px;
@@ -102,19 +100,25 @@ body {
 }
 
 
-
 #signupForm input {
-    width: 250px;
-    height: 25px;
-    background-color: #fffefe;
-    border-color: #E5E7EB;
-    border-radius: 8px;;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+#signupForm input:valid{
+    color: green;
 
 }
 
-#signupForm input #password, #signupForm input #confirmPassword :invalid {
-    border-color: red;
+#signupForm input:invalid{
+    color: red;
+
 }
+#signupForm input:placeholder-shown {
+    color: gray;
+}
+
 
 #bottom-text {
     margin-top: 20px;

@@ -24,30 +24,36 @@
                 <div id="left-section">
                     <p>
                         <label for="firstName">First Name</label>
-                        <input type="text" id="firstName" name="firstname">
+                        <input type="text" id="firstName" name="firstname" placeholder="Joe"
+                            min="1" max="100" required>
                     </p>
                     <p>
                         <label for="email">Email</label>
-                        <input type="text" id="email" name="email">
+                        <input type="text" id="email" name="email" placeholder="joe@example.com"
+                            min="3" max="100" required>
                     </p>
                     <p>
                         <label for="password">Password</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password"
+                            min="6" max="100" required>
                     </p>
                 </div>
                         
                 <div id="right-section">
                     <p>
                         <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastname">
+                        <input type="text" id="lastName" name="lastname" placeholder="Smith"
+                            min="1" max="100" required>
                     </p>
                     <p>
                         <label for="number">Phone Number</label>
-                        <input type="text" id="number" name="number">
+                        <input type="text" id="number" name="number" placeholder="(384) 575-5592"
+                            min="5" max="12" required>
                     </p>
                     <p>
                         <label for="confirmPassword">Confirm Password </label>
-                        <input type="password" id="confirmPassword" name="confirmPassword">
+                        <input type="password" id="confirmPassword" name="confirmPassword"
+                            min="6" max="100" required>
                     </p>
                 </div>
             </form>

@@ -27,7 +27,6 @@
 }
 
 
-
 #logo img {
     height: 160px;
 }
@@ -105,9 +104,6 @@ body {
     border-bottom: 1px solid #cccccc;
 }
 
-#signupForm input:placeholder-shown {
-    color: purple;
-}
 
 #signupForm input:valid{
     color: green;
@@ -119,8 +115,9 @@ body {
 
 }
 
-
-
+#signupForm input:placeholder-shown {
+    color: purple;
+}
 
 #bottom-text {
     margin-top: 20px;
